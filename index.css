@@ -1,0 +1,108 @@
+.banner{
+    height:100vh;
+    width:100vw;
+    background:#000;
+    position:relative ;
+    z-index:1;
+    display:flex;
+    flex-direction:column;
+    justify-content:center ;
+    align-items:center ; 
+    color:rgb(247, 242, 242);
+    line-height:10rem;
+}
+.banner a{
+    text-decoration:wavy;
+    color:rgb(2, 1, 1);
+    font-size: 180%;
+    font-style:italic;
+}
+.banner h1{
+    font-size:4rem;
+    color: rgb(245, 247, 245);
+    border:3mm;
+    border-style:double;
+    border-color: rgb(17, 17, 3);
+    text-decoration:double;
+    text-decoration-style: dotted;
+    text-decoration-color: rgb(243, 240, 240);
+}
+.banner u{
+    color: black;
+    text-decoration-color: #f3db05;
+}
+.banner h4{
+    font-size:2rem;
+    border:3mm;
+    border-style:double;
+    color:rgb(103, 104, 80);
+    border-color: rgb(231, 210, 17);
+    border-radius: 100%;
+    background-color: #000;
+}
+.banner::before{
+    position:absolute ;
+    content:"";
+    height:inherit ;
+    width:inherit ;
+    background:url(https://images7.alphacoders.com/638/thumb-1920-638060.jpg) center center/cover;
+    opacity:7;
+    z-index:-1;
+}
+.banner button{
+    padding:.3rem 3rem;
+    background:#f3db05;
+    border:rgb(243, 239, 239);
+    border-style:double;
+    color:rgb(248, 245, 245);
+    margin-top:5rem;
+    cursor:pointer;
+}
+
+.recipe_div,{
+    height:1000vh;
+    width:200vh;
+    background:var(--blue);
+    color-scheme:inherit;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.recipe_div h1{
+    font-size: 3.5rem;
+    color: antiquewhite;
+    margin-bottom: 1rem;
+}
+.recipe_div p{
+    font-size: 2rem;
+}
+body{
+    background-color: rgb(14, 11, 4);
+}
+body hr{
+    list-style:lower-alpha;
+}
+.footer{
+    width:70vw;
+    height:20vh;
+}
+.services1{
+    margin:1rem 1rem;
+}
+.services h1,h3{
+    color:aliceblue;
+}
+.services p{
+    color:rgb(0, 0, 0);
+    font-size:150%;
+}
+.conatct_option{
+    display:flex;
+    font-size:100%;
+    margin-top:2rem;
+    justify-content:space-evenly;
+    padding:1rem;
+}
